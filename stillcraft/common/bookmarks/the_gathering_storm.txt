@@ -1,0 +1,155 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2016.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "NCL"
+		default = yes
+		
+		"NCL"={
+			history = "JLR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"IMM"={
+			history = "IMM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JLR"={
+			history = "JLR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"NIM"={
+			history = "NIM_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"WMA"={
+			history = "WMA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"NTK"={
+			history = "NTK_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"HMB"={
+			history = "HMB_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"RLM"={
+			minor = yes
+			history = "RLM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"DGL"={
+			minor = yes
+			history = "DGL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"WAT"={
+			minor = yes
+			history = "WAT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				neutrality_idea	
+				disarmed_nation
+			}
+			focuses = {
+			}
+		}
+		"GRV"={
+			minor = yes
+			history = "GRV_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"WIT"={
+			minor = yes
+			history = "WIT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RLJ"={
+			minor = yes
+			history = "RLJ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"EVG"={
+			minor = yes
+			history = "EVG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"NEC"={
+			minor = yes
+			history = "NEC_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

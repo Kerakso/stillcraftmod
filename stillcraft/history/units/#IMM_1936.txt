@@ -1,0 +1,408 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Dywizja Piechoty"  	# Standard formation for frontline divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Morsuńska Gwardia Narodowa"  	# Standard formation for NG divisions through late 1940
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+
+###### OOB ######
+units = {
+	####### CONUS Theater #######
+	### Carribean Forces ###
+	division = {			
+		name = "Gwardia Witebska"
+		location = 11241
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}			
+	division = {			
+		name = "Policja Militarna w Wibetsku"		
+		location = 11241
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+
+	### 1st Army -- note: Armies only paper organizations in 1936 ###
+	# I Army Corps #
+	division= {			
+		name = "Dywizja 'Foka'"		
+		location = 11370
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "Dywizja 'Skrzydlate Zwycięstwo'"		
+		location = 11370
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# II Army Corps #
+	division= {			
+		name = "Dywizja 'Mors'"		
+		location = 3734
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+	}			
+	division= {			
+		name = "Narodowa Gwardia 'Jakupowo'"		
+		location = 3734
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "Narodowa Gwardia 'Kot'"		
+		location = 3734
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# III Army Corps #
+	division= {			
+		name = "Narodowa Gwardia 'Na Witkoland!'"		
+		location = 9753
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "Narodowa Gwardia 'Lambrus'"		
+		location = 9753
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+
+
+	### 2nd Army -- note: Armies only paper organizations in 1936 ###
+	# V Army Corps #
+	division= {			
+		name = "Narodowa Gwardia 'Fokoland'"		
+		location = 9340
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "Narodowa Gwardia 'Lewakoland'"		
+		location = 9340
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# VI Army Corps #
+	division= {			
+		name = "Narodowa Gwardia 'Zieleń'"		
+		location = 3152
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "Narodowa Gwardia 'Krefti'"		
+		location = 3152
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+
+
+	### 3rd Army -- note: Armies only paper organizations in 1936 ###
+	# IV Army Corps #
+	division = {			
+		name = "Narodowa Gwardia 'Litwa'"		
+		location = 3320
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "Narodowa Gwardia 'Śmierć LR'"		
+		location = 3320
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# VIII Army Corps #
+	division= {			
+		name = "Dywizja 'Morston'"		
+		location = 3320
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "36th 'Texas' Division"		
+		location = 6380
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "45th 'Thunderbird' Division"		
+		location = 6380
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "1st Cavalry 'The 1st Team' Division"		
+		location = 6380
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}			
+					
+	### 4th Army -- note: Armies only paper organizations in 1936 ###
+	# VII Army Corps (CO: Bishop) #
+	division= {			
+		name = "34th 'Red Bull' Division"		
+		location = 6380
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "35th 'Santa Fe' Division"		
+		location = 6380
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	# IX Army Corps (CO: DeWitt) #
+	division= {			
+		name = "3rd 'Rock of the Marne' Division"		
+		location = 121
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+	}			
+	division = {			
+		name = "40th 'Sunshine' Division"		
+		location = 121
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+	division= {			
+		name = "41st 'Sunset' Division"		
+		location = 121
+		division_template = "Morsuńska Gwardia Narodowa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}			
+					
+
+	####### Pacific Theater	#######
+	### Alaska Defense Command ###
+	division = {			
+		name = "Alaska Defense Command"		
+		location = 3529
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Attu Island Garrison"		
+		location = 3529
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}
+			
+	### Hawaiian Department ###
+	division = {			
+		name = "Hawaiian Division"		
+		location = 3529
+		division_template = "Morsuńska Gwardia Narodowa"		# older equipment, less training than NG division
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# North Pacific Defenses #
+	division= {				
+		name = "Midway Island Garrison"			
+		location = 3529
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	division= {				
+		name = "Wake Island Garrison"			
+		location = 3529
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	division= {				
+		name = "Guam Garrison"			
+		location = 185
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}				
+	
+	# South Pacific Defenses #
+	division= {			
+		name = "Christmas Island Garrison"		
+		location = 185
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Jarvis Island Garrison"		
+		location = 185
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Palmyra Garrison"		
+		location = 3151
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Phoenix Island Garrison"		
+		location = 3151
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+	division= {			
+		name = "Johnston Island Garrison"		
+		location = 3151
+		division_template = "Garrison Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+
+	}			
+
+	### U.S. Army Forces in the Far East ###		
+	division = {										
+		name = "Philippine Division"			
+		location = 3151
+		division_template = "Dywizja Piechoty"			# older equipment, less training than NG division
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}				
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "IMM"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "IMM" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "IMM" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = cv_fighter_equipment_0
+			creator = "IMM" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+}
+#####################

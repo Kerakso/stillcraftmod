@@ -3959,3 +3959,41 @@ spriteTypes = {
 		texturefile = "gfx/interface/seized_equipment_item.dds"
 	}	
 }
+
+
+# IMM
+
+	SpriteType = {
+		name = "GFX_USA_infantry3_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry2_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_infantry1_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry0_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/IMM_infantry_equipment_1.dds"
+	}

@@ -82,10 +82,10 @@
  NIM_neutrality:0 "Cesarstwo Niemieckie"
 
 # Grandview
- GRV_neutrality:0 "Grandview"
- GRV_fascism:0 "Grandview"
- GRV_democratic:0 "Republika Grandview"
- GRV_communism:0 "Grandview"
+ GRV_neutrality:0 "Grandland"
+ GRV_fascism:0 "Grandland"
+ GRV_democratic:0 "Republika Grandland"
+ GRV_communism:0 "Grandland"
 
 # Evergreen
  EVG_neutrality:0 "Evergreen"
@@ -140,3 +140,9 @@
  GLM_fascism:0 "Old GoldenMine"
  GLM_democratic:0 "Old GoldenMine"
  GLM_communism:0 "Old GoldenMine"
+
+# Antikken
+ ATK_neutrality:0 "Antikken"
+ ATK_fascism:0 "Antikken"
+ ATK_democratic:0 "Antikken"
+ ATK_communism:0 "Antikken"

@@ -17,6 +17,7 @@ state=
 			}
 		}
 		add_core_of = GRV
+        add_core_of = NCL
 	}
 	provinces={
 		3288 	

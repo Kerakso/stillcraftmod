@@ -81,7 +81,7 @@ RLJ = {
 	color = rgb { 196 62 82 }
 	color_ui = rgb { 245 123 38 }
 }
-AYL = {
+ATK = {
 	color = rgb { 48 180 201 }
 	color_ui = rgb { 245 123 38 }
 }
@@ -91,6 +91,14 @@ GRL = {
 }
 GLM = {
 	color = rgb { 255 215 81 }
+	color_ui = rgb { 245 123 38 }
+}
+AYL = {
+	color = rgb { 136 0 22 }
+	color_ui = rgb { 245 123 38 }
+}
+CAB = {
+	color = rgb { 181 229 29 }
 	color_ui = rgb { 245 123 38 }
 }
 
@@ -154,4 +162,8 @@ D14 = {
 D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
+}
+ZZZ = {
+	color = rgb { 206 189 111 }
+	color_ui = rgb { 206 189 111 }
 }

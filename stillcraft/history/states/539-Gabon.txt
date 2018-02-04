@@ -9,7 +9,7 @@ state={
 		rubber=1
 	}
 	history={
-		owner = FRA
+		owner = ZZZ
 		victory_points = {
 			8193 2
 		}
@@ -17,12 +17,7 @@ state={
 			5139 1
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 1
-			5139 = {
-				naval_base = 1
-			}
+			infrastructure = 0
 		}
 
 	}

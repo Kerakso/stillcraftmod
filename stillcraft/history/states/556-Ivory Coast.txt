@@ -9,9 +9,9 @@ state={
 		rubber=2
 	}
 	history={
-		owner = AYL
+		owner = ZZZ
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 		}
 	}
 

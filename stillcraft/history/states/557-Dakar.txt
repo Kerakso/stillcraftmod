@@ -1,14 +1,13 @@
 
 state={
 	id=557
-	name="STATE_557" # Mauritania
+	name="STATE_557" # MaurZZZnia
 	manpower = 429200
 	
 	state_category = wasteland
-	impassable = yes
 
 	history={
-		owner = AYL
+		owner = ZZZ
 		buildings = {
 			infrastructure = 0
 		}

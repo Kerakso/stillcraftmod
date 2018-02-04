@@ -11,12 +11,9 @@ state={
 	}
 
 	history={
-		owner = ARG
+		owner = ZZZ
 		buildings = {
-			infrastructure = 3
-			10953 = {
-				naval_base = 1
-			}
+			infrastructure = 0
 		}
 		add_core_of = ARG
 	}

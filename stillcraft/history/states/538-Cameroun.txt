@@ -9,9 +9,9 @@ state={
 		rubber=5
 	}
 	history={
-		owner = BEL
+		owner = ZZZ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
 		add_core_of = COG
 	}

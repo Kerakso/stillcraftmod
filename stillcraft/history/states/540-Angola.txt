@@ -9,12 +9,10 @@ state={
 		rubber=1
 	}
 	history={
-		owner = POR
+		owner = ZZZ
 		buildings = {
-			infrastructure = 2
-			8248 ={
-				naval_base = 1
-			}
+			infrastructure = 0
+
 		}
 		victory_points = {
 			8248 1

@@ -7,24 +7,9 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ARG
+		owner = ZZZ
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 5
-			dockyard = 1
-			air_base = 4
-			12364 = {
-				naval_base = 7
-				bunker = 1
-				coastal_bunker = 1
-			}
-			7621 = {
-				naval_base = 2
-			}
-			1639 = {
-				naval_base = 1
-			}
+			infrastructure = 0
 		}
 		add_core_of = ARG
 		victory_points = {

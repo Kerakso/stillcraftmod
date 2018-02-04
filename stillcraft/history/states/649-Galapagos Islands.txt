@@ -6,12 +6,10 @@ state=
 	manpower=11532
 	history=
 	{
-		owner = ECU
+		owner = ZZZ
 		buildings = {
-			infrastructure = 2
-			5023 = {
-				naval_base = 1
-			}
+			infrastructure = 0
+
 		}
 		add_core_of = ECU
 	}

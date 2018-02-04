@@ -38,6 +38,11 @@ set_politics = {
 
 set_convoys = 5
 
+add_ideas = {
+	neutrality_idea	
+	disarmed_nation
+}
+
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
 	name = "Operar"

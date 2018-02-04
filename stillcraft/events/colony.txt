@@ -1,0 +1,2205 @@
+add_namespace = colony
+
+#Africa
+
+country_event = { #North Morocco
+	id = colony.1
+	title = colony.1.t
+	desc = colony.1.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 290
+				owns_state = 461
+				owns_state = 462
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.1.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 290
+							owns_state = 461
+							owns_state = 462
+						}
+					}
+				}
+				transfer_state = 290
+				transfer_state = 461
+				transfer_state = 462
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.1.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Sahara
+	id = colony.2
+	title = colony.2.t
+	desc = colony.2.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 699
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.2.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 699
+					}
+				}
+				transfer_state = 699
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.2.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}
+
+country_event = { #Algeria
+	id = colony.3
+	title = colony.3.t
+	desc = colony.3.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 459
+				owns_state = 460
+				owns_state = 513
+				owns_state = 514
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.3.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 459
+							owns_state = 460
+							owns_state = 513
+							owns_state = 514
+						}
+					}
+				}
+				transfer_state = 459
+				transfer_state = 460
+				transfer_state = 513
+				transfer_state = 514
+			}
+		}
+		add_political_power = -200
+	}
+	
+	option = {
+		name = colony.3.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 80
+	}
+}
+
+country_event = { #Tunisia
+	id = colony.4
+	title = colony.4.t
+	desc = colony.4.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 458
+				owns_state = 665
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.4.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 458
+							owns_state = 665
+						}
+					}
+				}
+				transfer_state = 458
+				transfer_state = 665
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.4.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Libya
+	id = colony.5
+	title = colony.5.t
+	desc = colony.5.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 448
+				owns_state = 661
+				owns_state = 273
+				owns_state = 662
+				owns_state = 449
+				owns_state = 450
+				owns_state = 451
+				owns_state = 663
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.5.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 448
+							owns_state = 661
+							owns_state = 273
+							owns_state = 662
+							owns_state = 449
+							owns_state = 450
+							owns_state = 451
+							owns_state = 663
+						}
+					}
+				}
+				transfer_state = 448
+				transfer_state = 661
+				transfer_state = 273
+				transfer_state = 662
+				transfer_state = 449
+				transfer_state = 450
+				transfer_state = 451
+				transfer_state = 663
+			}
+		}
+		add_political_power = -250
+	}
+	
+	option = {
+		name = colony.5.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 100
+	}
+}
+
+country_event = { #Egypt
+	id = colony.6
+	title = colony.6.t
+	desc = colony.6.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 452
+				owns_state = 447
+				owns_state = 446
+				owns_state = 552
+				owns_state = 456
+				owns_state = 457
+				owns_state = 551
+				owns_state = 549
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.6.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 452
+							owns_state = 447
+							owns_state = 446
+							owns_state = 552
+							owns_state = 456
+							owns_state = 457
+							owns_state = 551
+							owns_state = 549
+						}
+					}
+				}
+				transfer_state = 452
+				transfer_state = 447
+				transfer_state = 446
+				transfer_state = 552
+				transfer_state = 456
+				transfer_state = 457
+				transfer_state = 551
+				transfer_state = 549
+			}
+		}
+		add_political_power = -250
+	}
+	
+	option = {
+		name = colony.6.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 100
+	}
+}
+
+country_event = { #West Africa
+	id = colony.7
+	title = colony.7.t
+	desc = colony.7.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 556
+				owns_state = 274
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.7.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 556
+							owns_state = 274
+						}
+					}
+				}
+				transfer_state = 556
+				transfer_state = 274
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.7.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Senegal
+	id = colony.8
+	title = colony.8.t
+	desc = colony.8.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 272
+				owns_state = 701
+				owns_state = 296
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.8.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 272
+							owns_state = 701
+							owns_state = 296
+						}
+					}
+				}
+				transfer_state = 272
+				transfer_state = 701
+				transfer_state = 296
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.8.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Sierra Leone
+	id = colony.9
+	title = colony.9.t
+	desc = colony.9.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 700
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.9.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 700
+					}
+				}
+				transfer_state = 700
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.9.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}
+
+country_event = { #Mauritania
+	id = colony.10
+	title = colony.10.t
+	desc = colony.10.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 557
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.10.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 557
+					}
+				}
+				transfer_state = 557
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.10.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}
+
+country_event = { #Nigeria
+	id = colony.11
+	title = colony.11.t
+	desc = colony.11.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 515
+				owns_state = 558
+				owns_state = 660
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.11.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 515
+							owns_state = 558
+							owns_state = 660
+						}
+					}
+				}
+				transfer_state = 515
+				transfer_state = 558
+				transfer_state = 660
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.11.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Gabon
+	id = colony.12
+	title = colony.12.t
+	desc = colony.12.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 539
+				owns_state = 297
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.12.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 539
+							owns_state = 297
+						}
+					}
+				}
+				transfer_state = 539
+				transfer_state = 297
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.12.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Congo
+	id = colony.13
+	title = colony.13.t
+	desc = colony.13.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 295
+				owns_state = 538
+				owns_state = 718
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.13.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 295
+							owns_state = 538
+							owns_state = 718
+						}
+					}
+				}
+				transfer_state = 295
+				transfer_state = 538
+				transfer_state = 718
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.13.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Angola
+	id = colony.14
+	title = colony.14.t
+	desc = colony.14.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 540
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.14.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 540
+					}
+				}
+				transfer_state = 540
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.14.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}	
+
+country_event = { #Madagascar
+	id = colony.15
+	title = colony.15.t
+	desc = colony.15.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 543
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.15.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 543
+					}
+				}
+				transfer_state = 543
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.15.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}	
+
+country_event = { #South Africa
+	id = colony.16
+	title = colony.16.t
+	desc = colony.16.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 541
+				owns_state = 542
+				owns_state = 681
+				owns_state = 275
+				owns_state = 719
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.16.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 541
+							owns_state = 542
+							owns_state = 681
+							owns_state = 275
+							owns_state = 719
+						}
+					}
+				}
+				transfer_state = 541
+				transfer_state = 542
+				transfer_state = 681
+				transfer_state = 275
+				transfer_state = 719
+			}
+		}
+		add_political_power = -250
+	}
+	
+	option = {
+		name = colony.16.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 100
+	}
+}
+
+country_event = { #Mozambique
+	id = colony.17
+	title = colony.17.t
+	desc = colony.17.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 544
+				owns_state = 545
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.17.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 544
+							owns_state = 545
+						}
+					}
+				}
+				transfer_state = 544
+				transfer_state = 545
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.17.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Somaliland
+	id = colony.18
+	title = colony.18.t
+	desc = colony.18.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 559
+				owns_state = 269
+				owns_state = 268
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.18.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 559
+							owns_state = 269
+							owns_state = 268
+						}
+					}
+				}
+				transfer_state = 559
+				transfer_state = 269
+				transfer_state = 268
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.18.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Eritea
+	id = colony.19
+	title = colony.19.t
+	desc = colony.19.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 550
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.19.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 550
+					}
+				}
+				transfer_state = 550
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.19.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}	
+
+country_event = { #Helena Sao Tome
+	id = colony.20
+	title = colony.20.t
+	desc = colony.20.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 705
+				owns_state = 704
+				owns_state = 703
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.20.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 705
+							owns_state = 704
+							owns_state = 703
+						}
+					}
+				}
+				transfer_state = 705
+				transfer_state = 704
+				transfer_state = 703
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.20.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 30
+	}
+}
+
+country_event = { #Canary Verde
+	id = colony.21
+	title = colony.21.t
+	desc = colony.21.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 702
+				owns_state = 178
+				owns_state = 697
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.21.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 702
+							owns_state = 178
+							owns_state = 697
+						}
+					}
+				}
+				transfer_state = 702
+				transfer_state = 178
+				transfer_state = 697
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.21.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 30
+	}
+}
+
+country_event = { #Indian Ocean Islands
+	id = colony.22
+	title = colony.22.t
+	desc = colony.22.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 708
+				owns_state = 709
+				owns_state = 706
+				owns_state = 707
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.22.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 706
+							owns_state = 707
+							owns_state = 708
+							owns_state = 709
+						}
+					}
+				}
+				transfer_state = 706
+				transfer_state = 707
+				transfer_state = 708
+				transfer_state = 709
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.22.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Kenya
+	id = colony.23
+	title = colony.23.t
+	desc = colony.23.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonial
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 546
+				owns_state = 547
+				owns_state = 548
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.23.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 546
+							owns_state = 547
+							owns_state = 548
+						}
+					}
+				}
+				transfer_state = 546
+				transfer_state = 547
+				transfer_state = 548
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.23.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+#SOUTH AMERICA
+country_event = { #Columbia
+	id = colony.24
+	title = colony.24.t
+	desc = colony.24.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 493
+				owns_state = 306
+				owns_state = 486
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.24.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 493
+							owns_state = 306
+							owns_state = 486
+						}
+					}
+				}
+				transfer_state = 493
+				transfer_state = 306
+				transfer_state = 486
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.24.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Venezula
+	id = colony.25
+	title = colony.25.t
+	desc = colony.25.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 489
+				owns_state = 307
+				owns_state = 488
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.25.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 489
+							owns_state = 307
+							owns_state = 488
+						}
+					}
+				}
+				transfer_state = 489
+				transfer_state = 307
+				transfer_state = 488
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.25.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Suriname/Guyana
+	id = colony.26
+	title = colony.26.t
+	desc = colony.26.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 687
+				owns_state = 309
+				owns_state = 310
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.26.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 687
+							owns_state = 309
+							owns_state = 310
+						}
+					}
+				}
+				transfer_state = 687
+				transfer_state = 309
+				transfer_state = 310
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.26.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Ecuador
+	id = colony.27
+	title = colony.27.t
+	desc = colony.27.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 305
+				owns_state = 649
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.27.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 305
+							owns_state = 649
+						}
+					}
+				}
+				transfer_state = 305
+				transfer_state = 649
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.27.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #SouthPeru
+	id = colony.28
+	title = colony.28.t
+	desc = colony.28.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 494
+				owns_state = 492
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.28.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 494
+							owns_state = 492
+						}
+					}
+				}
+				transfer_state = 494
+				transfer_state = 492
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.28.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #NorthPeru
+	id = colony.29
+	title = colony.29.t
+	desc = colony.29.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 490
+				owns_state = 491
+				owns_state = 303
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.29.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 490
+							owns_state = 491
+							owns_state = 303
+						}
+					}
+				}
+				transfer_state = 490
+				transfer_state = 491
+				transfer_state = 303
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.29.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #Chile
+	id = colony.30
+	title = colony.30.t
+	desc = colony.30.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 506
+				owns_state = 279
+				owns_state = 507
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.30.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 506
+							owns_state = 279
+							owns_state = 507
+						}
+					}
+				}
+				transfer_state = 506
+				transfer_state = 279
+				transfer_state = 507
+			}
+		}
+		add_political_power = -150
+	}
+	
+	option = {
+		name = colony.30.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 60
+	}
+}
+
+country_event = { #WestArgentina
+	id = colony.31
+	title = colony.31.t
+	desc = colony.31.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 512
+				owns_state = 511
+				owns_state = 278
+				owns_state = 508
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.31.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 512
+							owns_state = 511
+							owns_state = 278
+							owns_state = 508
+						}
+					}
+				}
+				transfer_state = 512
+				transfer_state = 511
+				transfer_state = 278
+				transfer_state = 508
+			}
+		}
+		add_political_power = -200
+	}
+	
+	option = {
+		name = colony.31.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 80
+	}
+}
+
+country_event = { #EastArgentina
+	id = colony.32
+	title = colony.32.t
+	desc = colony.32.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 509
+				owns_state = 510
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.32.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 509
+							owns_state = 510
+						}
+					}
+				}
+				transfer_state = 509
+				transfer_state = 510
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.32.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Uruguay
+	id = colony.33
+	title = colony.33.t
+	desc = colony.33.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			owns_state = 300
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.33.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						owns_state = 300
+					}
+				}
+				transfer_state = 300
+			}
+		}
+		add_political_power = -50
+	}
+	
+	option = {
+		name = colony.33.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 20
+	}
+}
+
+country_event = { #SouthBrazil
+	id = colony.34
+	title = colony.34.t
+	desc = colony.34.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 500
+				owns_state = 501
+				owns_state = 502
+				owns_state = 503
+				owns_state = 504
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.34.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 500
+							owns_state = 501
+							owns_state = 502
+							owns_state = 503
+							owns_state = 504
+						}
+					}
+				}
+				transfer_state = 500
+				transfer_state = 501
+				transfer_state = 502
+				transfer_state = 503
+				transfer_state = 504
+			}
+		}
+		add_political_power = -250
+	}
+	
+	option = {
+		name = colony.34.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 100
+	}
+}
+
+country_event = { #NorthBrazil
+	id = colony.35
+	title = colony.35.t
+	desc = colony.35.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 496
+				owns_state = 497
+				owns_state = 498
+				owns_state = 499
+				owns_state = 505
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.35.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 496
+							owns_state = 497
+							owns_state = 498
+							owns_state = 499
+							owns_state = 505
+						}
+					}
+				}
+				transfer_state = 496
+				transfer_state = 497
+				transfer_state = 498
+				transfer_state = 499
+				transfer_state = 505
+			}
+		}
+		add_political_power = -250
+	}
+	
+	option = {
+		name = colony.35.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 100
+	}
+}
+
+country_event = { #Paraguay INLAND
+	id = colony.36
+	title = colony.36.t
+	desc = colony.36.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 301
+				owns_state = 688
+			}
+		}
+		OR = {
+			owns_state = 302
+			owns_state = 487
+			owns_state = 504
+			owns_state = 503
+			owns_state = 510
+			owns_state = 509
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.36.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 301
+							owns_state = 688
+						}
+					}
+				}
+				transfer_state = 301
+				transfer_state = 688
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.36.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Bolivia INLAND
+	id = colony.37
+	title = colony.37.t
+	desc = colony.37.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 302
+				owns_state = 487
+			}
+		}
+		OR = {
+			owns_state = 506
+			owns_state = 492
+			owns_state = 494
+			owns_state = 495
+			owns_state = 280
+			owns_state = 504
+			owns_state = 688
+			owns_state = 509
+			owns_state = 508
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.37.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 302
+							owns_state = 487
+						}
+					}
+				}
+				transfer_state = 302
+				transfer_state = 487
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.37.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+country_event = { #Amazon
+	id = colony.38
+	title = colony.38.t
+	desc = colony.38.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		has_idea = colonialsa
+		has_war = no
+		has_political_power > 0
+		ZZZ = {
+			AND = {
+				owns_state = 495
+				owns_state = 280
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1825
+	}
+	
+	option = {
+		name = colony.38.a #Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					ZZZ = {
+						AND = {
+							owns_state = 495
+							owns_state = 280
+						}
+					}
+				}
+				transfer_state = 495
+				transfer_state = 280
+			}
+		}
+		add_political_power = -100
+	}
+	
+	option = {
+		name = colony.38.b #Do not Colonize State
+		ai_chance = {	
+			factor = 0	
+		}
+		add_political_power = 40
+	}
+}
+
+
+#Other Events
+country_event = { #StateFlag
+	id = colony.500
+	title = colony.500.t
+	desc = colony.500.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZZZ
+	}
+	
+	option = {
+		name = colony.500.a
+		hidden_effect = {
+			every_owned_state = {
+				set_state_flag = colonial_state
+			}
+		}
+	}
+}
+
+country_event = { #WhitePeace
+	id = colony.501
+	title = colony.501.t
+	desc = colony.501.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	trigger = {
+		tag = ZZZ
+		has_war = yes
+	}
+	
+	option = {
+		name = colony.501.a
+		every_country = {
+			white_peace = ZZZ
+		}		
+	}
+}
+
+country_event = { #StartingColonialNations
+	id = colony.502
+	title = colony.502.t
+	desc = colony.502.d
+	picture = GFX_report_event_second_vienna_award_pact
+
+	trigger = {
+		has_country_flag = startingcolonial
+	}
+	
+	option = {
+		name = colony.502.a #Africa
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = FRA
+					tag = SPR
+					tag = ITA
+					tag = BEL
+				}
+			}
+		}
+		hidden_effect = {
+			clr_country_flag = startingcolonial
+			add_ideas = {
+				colonial
+			}
+		}
+	}
+	
+	option = {
+		name = colony.502.b #SouthAmerica
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = POR
+					tag = HOL
+				}
+			}
+		}
+		hidden_effect = {
+			clr_country_flag = startingcolonial
+			add_ideas = {
+				colonialsa
+			}
+		}
+	}
+}

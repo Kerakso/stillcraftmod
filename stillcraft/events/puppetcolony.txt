@@ -1,0 +1,401 @@
+add_namespace = puppetcolony
+
+country_event = { #Venezula
+	id = puppetcolony.1
+	title = puppetcolony.1.t
+	desc = puppetcolony.1.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = VEN
+		}
+		NOT = {
+			country_exists = VEN
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_ven
+		}
+	}
+	
+	option = {
+		name = puppetcolony.1.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = VEN
+			puppet = VEN
+			set_country_flag = deniedpuppet_ven
+		}
+	}
+	option = {
+		name = puppetcolony.1.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_ven
+		}
+	}
+}
+
+country_event = { #Columbia
+	id = puppetcolony.2
+	title = puppetcolony.2.t
+	desc = puppetcolony.2.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = COL
+		}
+		NOT = {
+			country_exists = COL
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_col
+		}
+	}
+	
+	option = {
+		name = puppetcolony.2.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = COL
+			puppet = COL
+			set_country_flag = deniedpuppet_col
+		}
+	}
+	option = {
+		name = puppetcolony.2.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_col
+		}
+	}
+}
+
+country_event = { #Brazil
+	id = puppetcolony.3
+	title = puppetcolony.3.t
+	desc = puppetcolony.3.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = BRA
+		}
+		NOT = {
+			country_exists = BRA
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_bra
+		}
+	}
+	
+	option = {
+		name = puppetcolony.3.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = BRA
+			puppet = BRA
+			set_country_flag = deniedpuppet_bra
+		}
+	}
+	option = {
+		name = puppetcolony.3.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_bra
+		}
+	}
+}
+
+country_event = { #Ecuador
+	id = puppetcolony.4
+	title = puppetcolony.4.t
+	desc = puppetcolony.4.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = ECU
+		}
+		NOT = {
+			country_exists = ECU
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_ecu
+		}
+	}
+	
+	option = {
+		name = puppetcolony.4.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = ECU
+			puppet = ECU
+			set_country_flag = deniedpuppet_ecu	
+		}
+	}
+	option = {
+		name = puppetcolony.4.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_ecu
+		}
+	}
+}
+
+country_event = { #Peru
+	id = puppetcolony.5
+	title = puppetcolony.5.t
+	desc = puppetcolony.5.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = PRU
+		}
+		NOT = {
+			country_exists = PRU
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_pru
+		}
+	}
+	
+	option = {
+		name = puppetcolony.5.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = PRU
+			puppet = PRU
+			set_country_flag = deniedpuppet_pru
+		}
+	}
+	option = {
+		name = puppetcolony.5.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_pru
+		}
+	}
+}
+
+country_event = { #Bolivia
+	id = puppetcolony.6
+	title = puppetcolony.6.t
+	desc = puppetcolony.6.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = BOL
+		}
+		NOT = {
+			country_exists = BOL
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_bol
+		}
+	}
+	
+	option = {
+		name = puppetcolony.6.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = BOL
+			puppet = BOL
+			set_country_flag = deniedpuppet_bol
+		}
+	}
+	option = {
+		name = puppetcolony.6.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_bol
+		}
+	}
+}
+
+country_event = { #Chile
+	id = puppetcolony.7
+	title = puppetcolony.7.t
+	desc = puppetcolony.7.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = CHL
+		}
+		NOT = {
+			country_exists = CHL
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_chl
+		}
+	}
+	
+	option = {
+		name = puppetcolony.7.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = CHL
+			puppet = CHL
+			set_country_flag = deniedpuppet_chl
+		}
+	}
+	option = {
+		name = puppetcolony.7.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_chl
+		}
+	}
+}
+
+country_event = { #Argentina
+	id = puppetcolony.8
+	title = puppetcolony.8.t
+	desc = puppetcolony.8.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = ARG
+		}
+		NOT = {
+			country_exists = ARG
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_arg
+		}
+	}
+	
+	option = {
+		name = puppetcolony.8.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = ARG
+			puppet = ARG
+			set_country_flag = deniedpuppet_arg
+		}
+	}
+	option = {
+		name = puppetcolony.8.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_arg
+		}
+	}
+}
+
+country_event = { #Paraguay
+	id = puppetcolony.9
+	title = puppetcolony.9.t
+	desc = puppetcolony.9.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = PAR
+		}
+		NOT = {
+			country_exists = PAR
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_par
+		}
+	}
+	
+	option = {
+		name = puppetcolony.9.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = PAR
+			puppet = PAR
+			set_country_flag = deniedpuppet_par
+		}
+	}
+	option = {
+		name = puppetcolony.9.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_par
+		}
+	}
+}
+
+country_event = { #Uruguay
+	id = puppetcolony.10
+	title = puppetcolony.10.t
+	desc = puppetcolony.10.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			is_core_of = URG
+		}
+		NOT = {
+			country_exists = URG
+		}
+		NOT = {
+			has_country_flag = deniedpuppet_urg
+		}
+	}
+	
+	option = {
+		name = puppetcolony.10.a #Colony
+		add_political_power = 25
+		hidden_effect = {
+			release = URG
+			puppet = URG
+			set_country_flag = deniedpuppet_urg
+		}
+	}
+	option = {
+		name = puppetcolony.10.b #Incorporate
+		add_political_power = -25
+		hidden_effect = {
+			set_country_flag = deniedpuppet_urg
+		}
+	}
+}

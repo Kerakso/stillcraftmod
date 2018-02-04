@@ -1,0 +1,229 @@
+add_namespace = resources
+
+country_event = { #Steel x4
+	id = resources.1
+	title = resources.1.t
+	desc = resources.1.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			has_state_flag = colonial_state
+		}
+		NOT = {
+			tag = ZZZ
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 550
+	}
+	
+	option = {
+		name = resources.1.a
+		add_political_power = 20
+		random_owned_state = {
+			limit = {
+				has_state_flag = colonial_state
+			}
+			add_resource = {
+				type = steel
+				amount = 4 
+			}
+		}
+	}
+}
+
+country_event = { #Oil x4
+	id = resources.2
+	title = resources.2.t
+	desc = resources.2.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			has_state_flag = colonial_state
+		}
+		NOT = {
+			tag = ZZZ
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 550
+	}
+	
+	option = {
+		name = resources.2.a
+		add_political_power = 20
+		random_owned_state = {
+			limit = {
+				has_state_flag = colonial_state
+			}
+			add_resource = {
+				type = oil
+				amount = 4 
+			}
+		}
+	}
+}
+
+country_event = { #Aluminium x4
+	id = resources.3
+	title = resources.3.t
+	desc = resources.3.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			has_state_flag = colonial_state
+		}
+		NOT = {
+			tag = ZZZ
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 550
+	}
+	
+	option = {
+		name = resources.3.a
+		add_political_power = 20
+		random_owned_state = {
+			limit = {
+				has_state_flag = colonial_state
+			}
+			add_resource = {
+				type = aluminium
+				amount = 4 
+			}
+		}
+	}
+}
+
+country_event = { #Rubber x4
+	id = resources.4
+	title = resources.4.t
+	desc = resources.4.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			has_state_flag = colonial_state
+		}
+		NOT = {
+			tag = ZZZ
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 550
+	}
+	
+	option = {
+		name = resources.4.a
+		add_political_power = 20
+		random_owned_state = {
+			limit = {
+				has_state_flag = colonial_state
+			}
+			add_resource = {
+				type = rubber
+				amount = 4 
+			}
+		}
+	}
+}
+
+country_event = { #Tungsten x4
+	id = resources.5
+	title = resources.5.t
+	desc = resources.5.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			has_state_flag = colonial_state
+		}
+		NOT = {
+			tag = ZZZ
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 550
+	}
+	
+	option = {
+		name = resources.5.a
+		add_political_power = 20
+		random_owned_state = {
+			limit = {
+				has_state_flag = colonial_state
+			}
+			add_resource = {
+				type = tungsten
+				amount = 4 
+			}
+		}
+	}
+}
+
+country_event = { #Chromium x4
+	id = resources.6
+	title = resources.6.t
+	desc = resources.6.d
+	picture = GFX_report_event_second_vienna_award_pact
+	
+	trigger = {
+		OR = {
+			has_idea = colonial
+			has_idea = colonialsa
+		}
+		any_owned_state = {
+			has_state_flag = colonial_state
+		}
+		NOT = {
+			tag = ZZZ
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 550
+	}
+	
+	option = {
+		name = resources.5.a
+		add_political_power = 20
+		random_owned_state = {
+			limit = {
+				has_state_flag = colonial_state
+			}
+			add_resource = {
+				type = chromium
+				amount = 4 
+			}
+		}
+	}
+}

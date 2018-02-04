@@ -1,0 +1,68 @@
+ideas = {
+
+	colonization = { 
+		law = yes
+
+		non_colonial = {
+						
+			cost = 50
+			removal_cost = -1
+			
+			available = {
+			}
+
+			modifier = {
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+		}
+		
+		colonial = {
+						
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+				AND = {
+					is_puppet = no
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				consumer_goods_factor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		colonialsa = {
+						
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+				AND = {
+					is_puppet = no
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				consumer_goods_factor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

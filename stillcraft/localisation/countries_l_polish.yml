@@ -9,6 +9,12 @@
 # communism = Komunizm
 # neutrality = Bez powiązań/Monarchia
 
+# Kolonia
+ ZZZ_fascism:0 "Nie zajęte"
+ ZZZ_democratic:0 "Nie zajęte"
+ ZZZ_neutrality:0 "Nie zajęte"
+ ZZZ_communism:0 "Nie zajęte"
+
 # Les Revoires
  JLR_democratic:0 "Les Revoires"
  JLR_fascism:0 "Les Revoires"
@@ -146,3 +152,9 @@
  ATK_fascism:0 "Antikken"
  ATK_democratic:0 "Antikken"
  ATK_communism:0 "Antikken"
+
+# Canberra
+ CAB_neutrality:0 "Canberra"
+ CAB_fascism:0 "Canberra"
+ CAB_democratic:0 "Canberra"
+ CAB_communism:0 "Canberra"

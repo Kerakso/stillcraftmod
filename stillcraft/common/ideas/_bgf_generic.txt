@@ -1,0 +1,247 @@
+ideas = {
+
+	country = {
+
+		public_education = {
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_research_bonus
+
+			modifier = {
+				research_time_factor = -0.01
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		public_education_2 = {
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_research_bonus
+
+			modifier = {
+				research_time_factor = -0.02
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		public_education_3 = {
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_research_bonus
+
+			modifier = {
+				research_time_factor = -0.03
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		public_education_4 = {
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_research_bonus
+
+			modifier = {
+				research_time_factor = -0.05
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		frontier_development_law = {
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				global_building_slots_factor = 0.1
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		frontier_development_law_2 = {
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				global_building_slots_factor = 0.2
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		industrial_agriculture = {
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				MONTHLY_POPULATION = 5
+				consumer_goods_factor = 0.2
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		industrial_agriculture_2 = {
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				MONTHLY_POPULATION = 5
+				consumer_goods_factor = 0.1
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		industrial_agriculture_3 = {
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				MONTHLY_POPULATION = 10
+				consumer_goods_factor = 0.05
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		military_construction_idea = {
+			removal_cost = -1
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_production_bonus
+
+			modifier = {
+				production_speed_buildings_factor = 0.5
+				industrial_capacity_factory  = 0.5
+				industrial_capacity_dockyard = 0.5
+				unity_factor = -0.1
+				conscription_factor = -1
+			}
+		}
+
+		barracks = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				conscription = 0.005
+				training_time_army_factor = -0.10
+				army_org_Factor = 0.10
+				max_dig_in = 1
+				send_volunteer_size = 4
+			}
+		}
+
+		food_for_troops = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription = 0.01
+				MONTHLY_POPULATION = -0.5
+			}
+		}
+
+		military_schools = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				unity_factor = -0.01
+				fascism_drift = 0.03
+				army_morale_factor = 0.1
+
+				conscription = 0.01
+				training_time_factor = -0.1
+				army_leader_start_level = 1
+			}
+		}
+
+		military_schools_2 = {
+			removal_cost = -1
+
+			allowed = {
+				always = no # Triggered via event
+			}
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				unity_factor = -0.01
+				fascism_drift = 0.03
+				army_morale_factor = 0.1
+
+				conscription = 0.03
+				training_time_factor = -0.2
+				army_leader_start_level = 1
+
+				military_leader_cost_factor = -0.50
+			}
+		}
+	}
+}

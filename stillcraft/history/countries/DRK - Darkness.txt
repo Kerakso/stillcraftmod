@@ -40,6 +40,10 @@ set_politics = {
 
 set_convoys = 5
 
+add_ideas = {
+	DRK_wplywy_morsunskie
+}
+
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
 	name = "Darkness"

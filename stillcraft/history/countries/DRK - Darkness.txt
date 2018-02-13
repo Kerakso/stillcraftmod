@@ -41,6 +41,7 @@ set_politics = {
 set_convoys = 5
 
 add_ideas = {
+	MCTO_member
 	DRK_wplywy_morsunskie
 }
 

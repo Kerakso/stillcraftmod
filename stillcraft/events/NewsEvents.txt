@@ -4,3 +4,46 @@
 
 add_namespace = news
 
+#[Państwo] wychodzi z MCTO!
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_mcto
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.o1
+	}
+}
+
+# Z neutralnego do potężnego
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_mcto
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.o1
+	}
+}
+
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_mcto
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.o1
+	}
+}

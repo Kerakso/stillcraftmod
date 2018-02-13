@@ -294,6 +294,42 @@ music = {
 	}
 }
 music = {
+	song = "morsunist_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 3
+
+			has_war = yes
+			tag = IMM
+		}		
+	}
+}
+music = {
+	song = "morsunist_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 3
+
+			has_war = yes
+			tag = IMM
+		}		
+	}
+}
+music = {
+	song = "morsunist_war_4"
+	
+	chance = {
+		modifier = {
+			factor = 3
+
+			has_war = yes
+			tag = IMM
+		}		
+	}
+}
+music = {
 	song = "darkness_peace_1"
 	
 	chance = {

@@ -14,11 +14,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 75
+			popularity = 25
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 75
 		}
 		
 		communism = {
@@ -26,11 +26,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 25
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -44,15 +44,19 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Janek.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = falangism
 	traits = {
 		#
 	}
 }
 
 create_field_marshal = {
-	name = "Xhemal Aranitasi"
+	name = "PocianHono"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	skill = 2
 }
-
+create_field_marshal = {
+	name = "wejper37"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	skill = 2
+}

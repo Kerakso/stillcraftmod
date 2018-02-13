@@ -14,6 +14,10 @@ set_technology = {
 	gwtank = 1
 }
 
+add_ideas = {
+	MCTO_member
+}
+
 set_politics = {
 
 	parties = {
@@ -41,6 +45,9 @@ set_politics = {
 }
 
 create_faction = MCTO
+add_to_faction = IMM
+add_to_faction = DRK
+add_to_faction = RLM
 
 set_autonomy = {
 	target = DRK

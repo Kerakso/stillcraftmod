@@ -1,0 +1,24 @@
+add_namespace = darkness
+
+country_event = {
+	id = darkness.1
+	hidden = yes
+	
+	trigger = {
+		has_idea = DRK_wplywy_morsunskie
+		NOT = {
+			is_puppet_of = IMM
+			is_subject_of = IMM
+		}
+	}
+
+	mean_time_to_happen = { days = 2 }
+	
+	option = {
+		remove_ideas = DRK_wplywy_morsunskie
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}

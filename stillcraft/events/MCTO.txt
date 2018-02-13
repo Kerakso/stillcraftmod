@@ -1,0 +1,58 @@
+add_namespace = mcto
+
+# MCTO Leave
+country_event = {
+	id = mcto.1
+	hidden = yes
+
+	picture = GFX_report_event_mcto
+	
+	trigger = {
+		has_idea = MCTO_member
+		#OR = {
+		#	has_country_flag = member_MCTO
+		#}
+		NOT = {
+			is_in_faction_with = IMM
+		}
+	}
+
+	mean_time_to_happen = { days = 2 }
+	
+	option = {
+		remove_ideas = MCTO_member
+
+		news_event = news.1
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# MCTO Join
+country_event = {
+	id = mcto.2
+	hidden = yes
+
+	picture = GFX_report_event_mcto
+
+	trigger = {
+		is_in_faction_with = IMM
+		NOT = {
+			has_idea = MCTO_member
+		}
+	}
+
+	mean_time_to_happen = { days = 2 }
+
+	option = {
+		add_ideas = MCTO_member
+
+		news_event = news.3
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+}

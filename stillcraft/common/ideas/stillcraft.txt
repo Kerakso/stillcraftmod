@@ -10,11 +10,28 @@ country = {
 
 		removal_cost = -1
 
-
 		picture = Ast_abandon_the_westminster_system
 
 		modifier = {
-			autonomy_gain = 10
+			autonomy_gain = 5
+		}
+	}
+
+	MCTO_member = {
+
+		allowed = {
+			always = no
+		}
+		removal_cost = -1
+
+		picture = MCTO_member
+
+		modifier = {
+			political_power_gain = 1
+			unity_factor = 0.05
+			justify_war_goal_time = -0.10
+			guarantee_tension = -0.05
+			guarantee_cost = -0.05
 		}
 	}
 }

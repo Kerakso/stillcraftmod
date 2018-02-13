@@ -15,12 +15,9 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+			"Pakt Demokratyczny StillCrafta"
+			"Wolność i Równość"
+			"Unia Demokratyczna"
 		}
 		
 		color = { 0 0 255 }
@@ -76,11 +73,10 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Komintern"
+			"Komunistyczny StillCraft"
+			"Unia Robotników StillCrafta"
+			"Sowieci"
 		}
 		
 		color = { 255 0 0 }
@@ -91,7 +87,7 @@ ideologies = {
 		ai_communist = yes # uses the commie AI behaviour
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -124,11 +120,8 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
+			"Faszyści StillCrafta"
+			"Oś"
 		}
 		
 		color = { 150 75 0 }
@@ -137,7 +130,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -167,11 +160,9 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
+			"Unia Królewska"
+			"Sojusz Międzynarodowy"
+			"Królewski Sojusz StillCrafta"
 		}
 		
 		color = { 124 124 124 }
@@ -185,6 +176,7 @@ ideologies = {
 			can_puppet = yes
 			can_send_volunteers = yes
 			can_declare_war_on_same_ideology = yes
+			can_lower_tension = yes
 		}
 		
 		modifiers = {

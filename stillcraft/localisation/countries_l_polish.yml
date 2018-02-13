@@ -8,6 +8,7 @@
 # fascism = Faszyzm
 # communism = Komunizm
 # neutrality = Bez powiązań/Monarchia
+# ADJ = Skróty państw
 
 # Kolonia
  ZZZ_fascism:0 "Nie zajęte"
@@ -20,18 +21,34 @@
  JLR_fascism:0 "Les Revoires"
  JLR_communism:0 "Les Revoires"
  JLR_neutrality:0 "Les Revoires"
+ JLR_ADJ:0 "LR."
+
+ JLR_democratic_DEF:0 "Les Revoires"
+ JLR_fascism_DEF:0 "Les Revoires"
+ JLR_communism_DEF:0 "Les Revoires"
+ JLR_neutrality_DEF:0 "Les Revoires"
 
 # Imperium Morsuńskie
  IMM_neutrality:0 "Imperium Morsuńskie"
  IMM_fascism:0 "Imperialne Imperium Morsuńskie"
  IMM_democratic:0 "Federacja Republik Morsuńskich"
  IMM_communism:0 "Związek Komunistycznych Republik Morsuńskich"
+ IMM_ADJ:0 "mors."
 
+ IMM_neutrality_DEF:0 "Imperium Morsuńskie"
+ IMM_fascism_DEF:0 "Imperialne Imperium Morsuńskie"
+ IMM_democratic_DEF:0 "Federacja Republik Morsuńskich"
+ IMM_communism_DEF:0 "Związek Komunistycznych Republik Morsuńskich"
 # Nowa Columbia
  NCL_neutrality:0 "Księstwo Columbii"
  NCL_fascism:0 "Księstwo Columbii"
  NCL_democratic:0 "Columbia"
  NCL_communism:0 "Państwo demokratyczne Columbii"
+
+ NCL_neutrality_DEF:0 "Księstwo Columbii"
+ NCL_fascism_DEF:0 "Księstwo Columbii"
+ NCL_democratic_DEF:0 "Columbia"
+ NCL_communism_DEF:0 "Państwo demokratyczne Columbii"
 
 # New Tokyo
  NTK_neutrality:0 "New Tokyo"
@@ -39,11 +56,21 @@
  NTK_democratic:0 "New Tokyo"
  NTK_communism:0 "New Tokyo"
 
+ NTK_neutrality_DEF:0 "New Tokyo"
+ NTK_fascism_DEF:0 "New Tokyo"
+ NTK_democratic_DEF:0 "New Tokyo"
+ NTK_communism_DEF:0 "New Tokyo"
+
 # Warp Miasto
  WMA_neutrality:0 "Warp Miasto"
  WMA_fascism:0 "Warp Miasto"
  WMA_democratic:0 "Warp Miasto"
  WMA_communism:0 "Warp Miasto"
+
+ WMA_neutrality_DEF:0 "Warp Miasto"
+ WMA_fascism_DEF:0 "Warp Miasto"
+ WMA_democratic_DEF:0 "Warp Miasto"
+ WMA_communism_DEF:0 "Warp Miasto"
 
 # Himmelberg
  HMB_neutrality:0 "Himmelberg"
@@ -51,23 +78,43 @@
  HMB_democratic:0 "Himmelberg"
  HMB_communism:0 "Himmelberg"
 
+ HMB_neutrality_DEF:0 "Himmelberg"
+ HMB_fascism_DEF:0 "Himmelberg"
+ HMB_democratic_DEF:0 "Himmelberg"
+ HMB_communism_DEF:0 "Himmelberg"
+
 # Dogeland
  DGL_neutrality:0 "Dogeland"
  DGL_fascism:0 "Dogeland"
  DGL_democratic:0 "Dogeland"
  DGL_communism:0 "Dogeland"
 
+ DGL_neutrality_DEF:0 "Dogeland"
+ DGL_fascism_DEF:0 "Dogeland"
+ DGL_democratic_DEF:0 "Dogeland"
+ DGL_communism_DEF:0 "Dogeland"
+
 # Witkoland
  WIT_communism:0 "Imperium Witkolandzkie"
- WIT_democratic:0 "Imperium Witkolandzkie"
+ WIT_democratic:0 "Witkoland"
  WIT_fascism:0 "Imperium Witkolandzkie"
- WIT_neutrality:0 "Imperium Witkolandzkie"
+ WIT_neutrality:0 "Księstwo Witkolandzkie"
+
+ WIT_communism_DEF:0 "Imperium Witkolandzkie"
+ WIT_democratic_DEF:0 "Witkoland"
+ WIT_fascism_DEF:0 "Imperium Witkolandzkie"
+ WIT_neutrality_DEF:0 "Księstwo Witkolandzkie"
 
 # Darknesowo
  DRK_neutrality:0 "Cesarstwo Letzepelinlandu"
- DRK_fascism:0 "Cesarstwo Letzepelinlandu"
- DRK_democratic:0 "Cesarstwo Letzepelinlandu"
- DRK_communism:0 "Cesarstwo Letzepelinlandu"
+ DRK_fascism:0 "Imperium Letzepelinlandu"
+ DRK_democratic:0 "Republika Letzepelinlandu"
+ DRK_communism:0 "Państwo Demokratyczne Letzepelinlandu"
+
+ DRK_neutrality_DEF:0 "Cesarstwo Letzepelinlandu"
+ DRK_fascism_DEF:0 "Imperium Letzepelinlandu"
+ DRK_democratic_DEF:0 "Republika Letzepelinlandu"
+ DRK_communism_DEF:0 "Państwo Demokratyczne Letzepelinlandu"
 
 # Watykan
  WAT_neutrality:0 "Watykan"
@@ -75,17 +122,35 @@
  WAT_democratic:0 "Watykan"
  WAT_communism:0 "Watykan"
 
+ WAT_ADJ:0 "wat."
+
+ WAT_neutrality_DEF:0 "Watykan"
+ WAT_fascism_DEF:0 "Watykan"
+ WAT_democratic_DEF:0 "Watykan"
+ WAT_communism_DEF:0 "Watykan"
+
 # Magnifikat
  RLM_democratic:0 "Republika Ludowa Magnifikatu"
  RLM_fascism:0 "Republika Ludowa Magnifikatu"
  RLM_communism:0 "Republika Ludowa Magnifikatu"
  RLM_neutrality:0 "Republika Ludowa Magnifikatu"
 
+ RLM_democratic_DEF:0 "Republika Ludowa Magnifikatu"
+ RLM_fascism_DEF:0 "Republika Ludowa Magnifikatu"
+ RLM_communism_DEF:0 "Republika Ludowa Magnifikatu"
+ RLM_neutrality_DEF:0 "Republika Ludowa Magnifikatu"
+
 # Niemcy
  NIM_democratic:0 "Republika Niemiecka"
  NIM_fascism:0 "Cesarstwo Niemieckie"
  NIM_communism:0 "Cesarstwo Niemieckie"
  NIM_neutrality:0 "Cesarstwo Niemieckie"
+ NIM_ADJ:0 "niem."
+
+ NIM_democratic_DEF:0 "Republika Niemiecka"
+ NIM_fascism_DEF:0 "Cesarstwo Niemieckie"
+ NIM_communism_DEF:0 "Cesarstwo Niemieckie"
+ NIM_neutrality_DEF:0 "Cesarstwo Niemieckie"
 
 # Grandview
  GRV_neutrality:0 "Grandland"
@@ -93,11 +158,21 @@
  GRV_democratic:0 "Republika Grandland"
  GRV_communism:0 "Grandland"
 
+ GRV_neutrality_DEF:0 "Grandland"
+ GRV_fascism_DEF:0 "Grandland"
+ GRV_democratic_DEF:0 "Republika Grandland"
+ GRV_communism_DEF:0 "Grandland"
+
 # Evergreen
  EVG_neutrality:0 "Evergreen"
  EVG_fascism:0 "Evergreen"
  EVG_democratic:0 "Evergreen"
  EVG_communism:0 "Evergreen"
+
+ EVG_neutrality_DEF:0 "Evergreen"
+ EVG_fascism_DEF:0 "Evergreen"
+ EVG_democratic_DEF:0 "Evergreen"
+ EVG_communism_DEF:0 "Evergreen"
 
 # NewCity
  NEC_neutrality:0 "New City"
@@ -105,11 +180,21 @@
  NEC_democratic:0 "New City"
  NEC_communism:0 "New City"
 
+ NEC_neutrality_DEF:0 "New City"
+ NEC_fascism_DEF:0 "New City"
+ NEC_democratic_DEF:0 "New City"
+ NEC_communism_DEF:0 "New City"
+
 # Liberty State
  LBS_neutrality:0 "Liberty State"
  LBS_fascism:0 "Liberty State"
  LBS_democratic:0 "Liberty State"
  LBS_communism:0 "Liberty State"
+
+ LBS_neutrality_DEF:0 "Liberty State"
+ LBS_fascism_DEF:0 "Liberty State"
+ LBS_democratic_DEF:0 "Liberty State"
+ LBS_communism_DEF:0 "Liberty State"
 
 # KRLD
  KRL_neutrality:0 "KRLD"
@@ -117,17 +202,34 @@
  KRL_democratic:0 "KRLD"
  KRL_communism:0 "KRLD"
 
+ KRL_neutrality_DEF:0 "KRLD"
+ KRL_fascism_DEF:0 "KRLD"
+ KRL_democratic_DEF:0 "KRLD"
+ KRL_communism_DEF:0 "KRLD"
+
 # Lodowe Królestwo
  LDO_neutrality:0 "Lodowe Królestwo"
  LDO_fascism:0 "Lodowe Królestwo"
  LDO_democratic:0 "Lodowe Królestwo"
  LDO_communism:0 "Lodowe Królestwo"
 
+ LDO_neutrality_DEF:0 "Lodowe Królestwo"
+ LDO_fascism_DEF:0 "Lodowe Królestwo"
+ LDO_democratic_DEF:0 "Lodowe Królestwo"
+ LDO_communism_DEF:0 "Lodowe Królestwo"
+
 # Rep. Lem. Jug.
  RLJ_neutrality:0 "Królestwo Lemurów Jugosławskich"
- RLJ_fascism:0 "Imperium Lemurów Jugosławskich"
- RLJ_democratic:0 "Republika Lemurów Jugosławskich"
+ RLJ_fascism:0 "Republika Lemurów Jugosławskich"
+ RLJ_democratic:0 "Demokratyczne Lemury Jugosławskie"
  RLJ_communism:0 "Republika Ludowa Lemurów Jugosławskich"
+
+ RLJ_ADJ:0 "lem."
+
+ RLJ_neutrality_DEF:0 "Królestwo Lemurów Jugosławskich"
+ RLJ_fascism_DEF:0 "Republika Lemurów Jugosławskich"
+ RLJ_democratic_DEF:0 "Demokratyczne Lemury Jugosławskie"
+ RLJ_communism_DEF:0 "Republika Ludowa Lemurów Jugosławskich"
 
 # Ayaland
  AYL_neutrality:0 "Ayaland"

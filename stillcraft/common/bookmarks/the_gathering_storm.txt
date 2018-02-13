@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"NCL"={
-			history = "JLR_GATHERING_STORM_DESC"
+			history = "NCL_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 			}
@@ -19,6 +19,7 @@ bookmarks = {
 			history = "IMM_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				MCTO_member
 			}
 			focuses = {
 			}
@@ -76,7 +77,8 @@ bookmarks = {
 			history = "RLM_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				
+				neutrality_idea	
+				disarmed_nation
 			}
 			focuses = {
 			}

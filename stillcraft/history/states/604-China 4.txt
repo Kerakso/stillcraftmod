@@ -9,7 +9,7 @@ state={
 	history={
 		owner = XSM
 		add_core_of = XSM
-		add_core_of = CHI
+		add_core_of = AYL
 		add_core_of = PRC
 		
 		victory_points = {
@@ -25,7 +25,7 @@ state={
 		}
 
 		1938.10.25 = {
-			owner = CHI
+			owner = AYL
 		}
 	}
 

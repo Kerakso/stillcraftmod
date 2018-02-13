@@ -17,6 +17,7 @@
 > **StillCraft Mod** został stworzony przez Kerakso (Polaczekk) wraz ze wsparciem graczy z serwera **mc.stillcraft.pl**
 > 
 > ----------
+>
 > **Jak zainstalować modyfikacje**
 >
 > Lokalizacje zawierające folder mod
@@ -26,6 +27,7 @@
 > - Mac: ~/Documents/Paradox Interactive/Hearts of Iron IV/mod/
 > 
 > Folder stillcraft wrzuć do folderu mod, a plik stillcraft.mod też ok
+>
 > ----------
 > 
 > **Submody**:

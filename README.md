@@ -23,3 +23,7 @@
 
 > Folder stillcraft wrzuć do folderu mod, a plik stillcraft.mod też ok
 ----------
+
+**Submody**:
+
+- Brak

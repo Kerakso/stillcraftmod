@@ -4,13 +4,9 @@
 [**Wątek o modyfikacji**](https://stillcraft.pl/temat/hearts-of-iron-iv-stillcraft-mod.19810/)
 
 **Wersja**: Pre-Alpha
-
 **Twórca**: Kerakso
-
 **Aktualna wersja modyfikacji**: 0.7
-
 **Kompatybilne z wersją gry**: Hearts of Iron IV 1.4.2 "Oak" (DLC nie są potrzebne)
-
 **Wspierane języki**:
 - Polski
 

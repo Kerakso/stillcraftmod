@@ -1,4 +1,4 @@
-﻿capital = 202
+﻿capital = 446
 
 OOB = "GLM_1936"
 
@@ -40,7 +40,7 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "Hade"
+	name = "HaDe22"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Hade.dds"
 	expire = "1965.1.1"

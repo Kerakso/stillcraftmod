@@ -1,4 +1,4 @@
-﻿capital = 11
+﻿capital = 5
 
 OOB = "GRV_1936"
 

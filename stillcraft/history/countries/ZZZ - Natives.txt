@@ -33,7 +33,7 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "No Leader"
+	name = "ziutekkk"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism

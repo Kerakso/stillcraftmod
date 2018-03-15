@@ -1,4 +1,4 @@
-﻿capital = 132
+﻿capital = 126
 
 OOB = "DRK_1936"
 

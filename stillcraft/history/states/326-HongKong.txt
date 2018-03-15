@@ -6,7 +6,7 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = ENG
+		owner = AYL
 		add_core_of = AYL
 		victory_points = {
 			10062 3 

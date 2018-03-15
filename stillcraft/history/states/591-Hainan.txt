@@ -5,10 +5,8 @@ state={
 	state_category = town
 
 	history={
-		owner = GXC
-		add_core_of = GXC
+		owner = AYL
 		add_core_of = AYL
-		add_core_of = PRC
 		
 		victory_points = {
 			1070 1 
@@ -23,11 +21,6 @@ state={
 
 		}
 
-		1938.10.25 = {
-			remove_core_of = GXC
-			owner = AYL
-			controller = JAP
-		}
 	}
 
 	provinces={

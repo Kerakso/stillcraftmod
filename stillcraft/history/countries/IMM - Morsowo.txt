@@ -47,7 +47,6 @@ set_politics = {
 create_faction = MCTO
 add_to_faction = IMM
 add_to_faction = DRK
-add_to_faction = RLM
 
 set_autonomy = {
 	target = DRK
@@ -61,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_POLACZEKK_DESC"
 	picture = "Polaczekk.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrism
 	traits = {
 		#
 	}

@@ -6,4 +6,4 @@ tags={
 	"Alternative History"
 	"Events"
 }
-supported_version="1.4.x"
+supported_version="1.5.x"

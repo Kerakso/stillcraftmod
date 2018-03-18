@@ -1,0 +1,27 @@
+
+IMM_MCTO_relations = {
+
+	MCTO_lendlease_tank = {
+
+		icon = unknown
+
+		allowed = {
+			has_idea = MCTO_member
+		}
+
+		cost = 150
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			has_idea = MCTO_member
+			NOT = { tag = IMM }
+		}
+
+		complete_effect = {
+			create_production_license = { target = IMM cost_factor = 1.0 equipment = { type = light_tank_equipment_1 version = 0 }}
+		}
+	}
+}

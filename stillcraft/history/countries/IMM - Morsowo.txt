@@ -1,6 +1,8 @@
 ﻿capital = 361
 
 OOB = "IMM_1936"
+set_stability = 0.8
+set_war_support = 0.3
 
 set_research_slots = 4
 
@@ -69,6 +71,11 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Lambrus194"
 	portrait_path = "gfx/leaders/IMM/Lambrus194.dds"
+	traits = { }
 	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
 }
 

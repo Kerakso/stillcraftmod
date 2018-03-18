@@ -1,0 +1,13 @@
+#
+# Decyzje dla MCTO
+#
+
+IMM_MCTO_relations = {
+	allowed = {
+		has_idea = MCTO_member
+	}
+
+	visible = {
+		has_idea = MCTO_member
+	}
+}

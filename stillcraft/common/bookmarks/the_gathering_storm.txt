@@ -32,10 +32,9 @@ bookmarks = {
 			focuses = {
 			}
 		}
-
 		"NIM"={
 			history = "NIM_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = neutrality
 			ideas = {
 			}
 			focuses = {
@@ -108,6 +107,7 @@ bookmarks = {
 			history = "GRV_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				
 			}
 			focuses = {
 			}
@@ -115,7 +115,7 @@ bookmarks = {
 		"WIT"={
 			minor = yes
 			history = "WIT_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = communism
 			ideas = {
 			}
 			focuses = {
@@ -124,7 +124,7 @@ bookmarks = {
 		"RLJ"={
 			minor = yes
 			history = "RLJ_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas = {
 			}
 			focuses = {
@@ -139,6 +139,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
+
 		"NEC"={
 			minor = yes
 			history = "NEC_GATHERING_STORM_DESC"
@@ -147,7 +148,7 @@ bookmarks = {
 			}
 			focuses = {
 			}
-		}
+		}	
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

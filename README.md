@@ -7,7 +7,7 @@
 >
 > **Aktualna wersja modyfikacji**: 0.9 Pre-Alpha
 >
-> **Kompatybilność z wersją gry**: 1.5 Cornflake (od 0.8 P-A), 1.4 (do 0.7 P-A)
+> **Kompatybilność z wersją gry**: 1.5 Cornflake (od 0.8 P-A), 1.4 Oak (do 0.7 P-A)
 > 
 > **StillCraft Mod** został stworzony przez Kerakso (Polaczekk) wraz ze wsparciem graczy z serwera **mc.stillcraft.pl**
 > 
